@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 
-export default function Ex1_SS38() {
+export default function Ex1_SS39() {
   const [file, setFile] = useState<File | null>(null);
   const [imageUrl, setImageUrl] = useState<string>("");
 

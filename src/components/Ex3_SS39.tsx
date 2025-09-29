@@ -3,7 +3,7 @@ import axios from "axios";
 import Cropper, { type ReactCropperElement } from "react-cropper";
 import "cropperjs/dist/cropper.css";
 
-export default function Ex3_SS38() {
+export default function Ex3_SS39() {
   const cropperRef = useRef<ReactCropperElement>(null);
 
   const [src, setSrc] = useState<string>("");      // ảnh gốc để crop (Object URL)

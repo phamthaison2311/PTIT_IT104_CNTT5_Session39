@@ -5,7 +5,7 @@ const buildTransformedUrl = (originalUrl: string, transform: string) => {
   return originalUrl.replace("/upload/", `/upload/${transform}/`);
 };
 
-export default function Ex5_SS38() {
+export default function Ex5_SS39() {
   const [originalUrl, setOriginalUrl] = useState<string>("");
   const [thumbUrl, setThumbUrl] = useState<string>("");
   const [showOriginal, setShowOriginal] = useState<boolean>(false);

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-export default function Ex4_SS38() {
+export default function Ex4_SS39() {
   const [imageUrl, setImageUrl] = useState<string>("");
   const [uploading, setUploading] = useState(false);
 

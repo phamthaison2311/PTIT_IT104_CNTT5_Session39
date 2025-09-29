@@ -6,7 +6,7 @@ type ImgItem = {
   publicId: string;
 };
 
-export default function Ex2_SS38() {
+export default function Ex2_SS39() {
   const [images, setImages] = useState<ImgItem[]>([]);
   const [uploading, setUploading] = useState(false);
   const API_BASE = "http://localhost:5173"; 
